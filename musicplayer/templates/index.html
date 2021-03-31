@@ -8,11 +8,17 @@
         <link rel="stylesheet" href="{% static 'style.css' %}">
     </head>
     <body>
-        <p>Music Player</p>
-        <img src="{% static 'bg-image.jpeg' %}" alt="bg_image">
-        <div class="background">
-
+        <div class="container">
+            <img src="{% static 'bg-image.jpeg' %}" alt="bg_image">
+            <div class="player">
+                {% for song in page_obj %}
+                <div class="song_cover">
+                    <img src="{{item.image.url}}" alt="">
+                </div>
+                {% endfor %}
+            </div>
         </div>
+        
 
 
     </body>

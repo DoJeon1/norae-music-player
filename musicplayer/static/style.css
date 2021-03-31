@@ -10,3 +10,10 @@
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
 }
+
+.container {
+    display: block;
+    width: 100%;
+    height: fit-content;
+    margin: auto;
+}
