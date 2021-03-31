@@ -1,0 +1,12 @@
+*:focus {
+    outline: none;
+}
+
+.html {
+    background: rgb(15, 15, 15);
+}
+
+.body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
