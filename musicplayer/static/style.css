@@ -11,9 +11,11 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-.container {
+.base {
     display: block;
     width: 100%;
-    height: fit-content;
+    height: 700px;
+    overflow: hidden;
+    background-image: url("bg-image.jpeg");
     margin: auto;
 }
