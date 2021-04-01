@@ -4,13 +4,12 @@
     --clr-accent: #5b82ee;
 }
 
-.html {
+html {
     scroll-behavior: smooth;
 }
 
-.body {
-    display: block;
-    margin: 0;
+body {
+    background: var(--clr-dark);
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -19,26 +18,22 @@ h1 {
     text-align: center;
 }
 
-.container {
-    color: var(--clr-dark);
-}
-
 .base {
     display: block;
     margin: auto;
     width: 100%;
     height: 1000px;
     background-color: var(--clr-dark);
-    background-image: url("bg-image.jpeg");
+    background-image: url("dj.jpeg");
     background-size: cover;
 }
 
 .player {
     display: block;
     position: relative;
-    top: 150px;
+    top: 200px;
     width: 400px;
-    height: 700px;
+    height: 600px;
     margin: auto;
     background: transparent linear-gradient(to bottom,rgba(15,15,15,0.9) 50%,rgb(15,15,15) 70%) repeat scroll 0 0;
 }

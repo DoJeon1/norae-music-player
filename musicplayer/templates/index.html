@@ -9,21 +9,17 @@
         <link rel="stylesheet" href="{% static 'style.css' %}">
     </head>
     <body>
-        <div class="container">
-            <div class="base">
-                <div class="player">
-                    <h1>
-                        Player
-                    </h1>
-                    <!--{% for song in page_obj %}
-                    <div class="song_cover">
-                        <img src="{{item.image.url}}" alt="">
-                    </div>
-                    {% endfor %}-->
+        <div class="base">
+            <div class="player">
+                {% for song in page_obj %}
+                <div class="song_cover">
+                    <img src="{{song.cover_image.url}}" alt="">
                 </div>
+                {% endfor %}
             </div>
-    
         </div>
+    
+       
     
                 
     </body>
