@@ -13,9 +13,15 @@
         <div class="base">
             <div class="player">
                 <ul class="buttons">
-                    <a class="play__btn">
+                    <li class="btn">
+                        <i class="fas fa-backward"></i>
+                    </li>
+                    <li class="btn">
                         <i class="fas fa-play"></i>
-                    </a>
+                    </li>
+                    <li class="btn">
+                        <i class="fas fa-forward"></i>
+                    </li>
                 </ul>
                 {% for song in page_obj %}
                 <div class="song_cover">
