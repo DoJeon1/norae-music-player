@@ -7,6 +7,7 @@ class Song(models.Model):
     song_duration = models.DurationField(default='')
     song_file = models.FileField(upload_to='media', default=False)
     cover_image = models.ImageField(upload_to='media', default=False)
+    paginate_by = 2
 
     def __str__(self):
         return self.song_title

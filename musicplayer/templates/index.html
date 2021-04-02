@@ -12,22 +12,27 @@
     <body>
         <div class="base">
             <div class="player">
-                <ul class="buttons">
-                    <li class="btn">
-                        <i class="fas fa-backward"></i>
-                    </li>
-                    <li class="btn">
-                        <i class="fas fa-play"></i>
-                    </li>
-                    <li class="btn">
-                        <i class="fas fa-forward"></i>
-                    </li>
-                </ul>
-                {% for song in page_obj %}
-                <div class="song_cover">
-                    <img src="{{song.cover_image.url}}" alt="">
-                </div>
-                {% endfor %}
+
+
+                <section class="interface">
+                    <ul class="buttons">
+                        <li class="btn">
+                            <i class="fas fa-step-backward"></i>
+                        </li>
+                        <li class="btn">
+                            <i class="fas fa-play"></i>
+                        </li>
+                        <li class="btn">
+                            <i class="fas fa-step-forward"></i>
+                        </li>
+                    </ul>
+                    {% for song in page_obj %}
+                    <div class="song_cover">
+                        <img src="{{song.cover_image.url}}" alt="">
+                    </div>
+                    {% endfor %}
+    
+                </section>
             </div>
         </div>
     
