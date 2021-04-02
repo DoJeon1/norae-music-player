@@ -13,7 +13,11 @@
         <div class="base">
             <div class="player">
 
-
+                {% for item in page_obj %}
+                <div class="song_cover">
+                    <img src="{{item.cover_image.url}}" class="image">
+                </div>
+                {% endfor %}
                 <section class="interface">
                     <ul class="buttons">
                         <li class="btn">
@@ -26,11 +30,7 @@
                             <i class="fas fa-step-forward"></i>
                         </li>
                     </ul>
-                    {% for song in page_obj %}
-                    <div class="song_cover">
-                        <img src="{{song.cover_image.url}}" alt="">
-                    </div>
-                    {% endfor %}
+                    
     
                 </section>
             </div>
