@@ -1,6 +1,6 @@
 Django based music player
 
-HTML, CSS, and JavaScript for frontend
+HTML, CSS, and JavaScript for frontend </br>
 Python and SQlite for backend
 
 Available actions are: 
