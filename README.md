@@ -3,6 +3,8 @@ Django based music player
 HTML, CSS, and JavaScript for frontend
 Python and SQlite for backend
 
+Available actions are: 
+
 To run the music player...
 - Download the entire package or clone the repo
 - In the command line, run "python manage.py makemigrations"
