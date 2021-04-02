@@ -5,12 +5,18 @@
     <head>
         <meta charset="utf-8">
         <title>Norae Music Player</title>
-        <link rel="">
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
         <link rel="stylesheet" href="{% static 'style.css' %}">
     </head>
     <body>
         <div class="base">
             <div class="player">
+                <ul class="buttons">
+                    <a class="play__btn">
+                        <i class="fas fa-play"></i>
+                    </a>
+                </ul>
                 {% for song in page_obj %}
                 <div class="song_cover">
                     <img src="{{song.cover_image.url}}" alt="">
