@@ -2,6 +2,8 @@
     --clr-light: rgb(230, 230, 230);
     --clr-dark: rgb(15, 15, 15);
     --clr-accent: #5b82ee;
+
+    --ff-primary: 'Do Hyeon', sans-serif;
 }
 
 html {
@@ -10,16 +12,13 @@ html {
 
 body {
     background: var(--clr-dark);
-    font-family: 'Source Sans Pro', sans-serif;
 }
 
-h1 {
-    color: var(--clr-light);
+h1,
+h2,
+h3 {
+    color: var(--clr-accent);
     text-align: center;
-}
-
-section {
-    border-radius: 1%;
 }
 
 .base {
