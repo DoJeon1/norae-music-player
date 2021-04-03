@@ -10,4 +10,4 @@ To run the music player...
 - In the command line, run "python manage.py makemigrations"
 - Run "python manage.py migrate"
 - Run "python manage.py runserver"
-- The music player will be accessible at "127.0.0.1:8000/musicplayer" in a web browser
+- The music player will be accessible at "127.0.0.1:8000" in a web browser
