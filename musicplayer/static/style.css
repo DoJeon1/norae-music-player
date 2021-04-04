@@ -47,6 +47,7 @@ h3 {
 
 audio {
     position: absolute;
+    bottom: 40px;
     left: 50px;
 }
 
