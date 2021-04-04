@@ -22,27 +22,31 @@
                 <div class="song_artist">
                     <h3>{{song.song_artist}}</h3>
                 </div>
-                {% endfor %}
-                <section class="interface">
+                <audio id="song">
+                    <source src="{{song.song_file.url}}" type="audio/mp3">
+                </audio>
+                <div class="interface">
                     <ul class="buttons">
                         <li class="btn">
                             <i class="fas fa-step-backward"></i>
                         </li>
-                        <li class="btn">
+                        <button class="btn" onclick="playSong()" type="button">
                             <i class="fas fa-play"></i>
-                        </li>
+                        </button>
                         <li class="btn">
                             <i class="fas fa-step-forward"></i>
                         </li>
                     </ul>
                     
     
-                </section>
+                </div>
+                {% endfor %}
+                
             </div>
         </div>
     
        
     
-                
+        <script src="{% static 'script.js' %}"></script>
     </body>
 </html>
