@@ -3,7 +3,7 @@ Django based music player
 HTML, CSS, and JavaScript for frontend </br>
 Python and SQlite for backend
 
-Available actions are: 
+Currently available actions are: Play, pause, volume change
 
 To run the music player...
 - Download the entire package or clone the repo
