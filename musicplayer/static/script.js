@@ -1,9 +1,10 @@
-var x = document.getElementById("song"); 
+var song = document.getElementById("song"); 
+/* Will implement this script later
 
 function playSong() { 
-  x.play(); 
+  song.play(); 
 } 
 
 function pauseAudio() { 
   x.pause(); 
-} 
+} */

@@ -22,9 +22,10 @@
                 <div class="song_artist">
                     <h3>{{song.song_artist}}</h3>
                 </div>
-                <audio id="song">
+                <audio id="song" controls> <!-- Currently used for simplicity -->
                     <source src="{{song.song_file.url}}" type="audio/mp3">
                 </audio>
+                <!-- Music Player buttons, will be implemented later
                 <div class="interface">
                     <ul class="buttons">
                         <li class="btn">
@@ -37,16 +38,15 @@
                             <i class="fas fa-step-forward"></i>
                         </li>
                     </ul>
-                    
-    
-                </div>
+                </div> -->
                 {% endfor %}
-                
             </div>
         </div>
     
        
     
-        <script src="{% static 'script.js' %}"></script>
+        <!-- To be implemented later
+            <script src="{% static 'script.js' %}"></script>
+        -->
     </body>
 </html>
