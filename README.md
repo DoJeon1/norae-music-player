@@ -1,4 +1,4 @@
-Django based music player
+<h1>Django based music player</h1>
 
 HTML, CSS, and JavaScript for frontend </br>
 Python and SQlite for backend
@@ -11,3 +11,8 @@ To run the music player...
 - Run "python manage.py migrate"
 - Run "python manage.py runserver"
 - The music player will be accessible at "127.0.0.1:8000" in a web browser
+
+Current UI:
+
+![UI image]
+(https://github.com/DoJeon1.github.io/img/Norae.png)
