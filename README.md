@@ -14,5 +14,5 @@ To run the music player...
 
 Current UI:
 
-Format: ![UI image]
+![UI image]
 (https://github.com/DoJeon1/DoJeon1.github.io/blob/master/img/Norae.png)
