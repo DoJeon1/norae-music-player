@@ -15,3 +15,11 @@ To run the music player...
 Current UI:
 
 ![UI image](Norae.jpg)
+
+
+TO DO:
+
+- Add more songs to the database
+- Skip functions
+- Change UI design to neumorphic design
+- Custom song duration bar for scrubbing to a different time in the song
