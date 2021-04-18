@@ -1,7 +1,7 @@
 <h1>Django based music player</h1>
 
-HTML, CSS, and JavaScript for frontend </br>
-Python and SQlite for backend
+FRONTEND: HTML, CSS, and JavaScript </br>
+BACKEND: Python and SQlite
 
 Currently available actions are: Play, pause, volume change
 
