@@ -23,3 +23,5 @@ TO DO:
 - Skip functions
 - Change UI design to neumorphic design
 - Custom song duration bar for scrubbing to a different time in the song
+- Queue functionality
+- Shuffle function
