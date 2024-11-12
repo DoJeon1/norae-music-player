@@ -3,7 +3,7 @@
 FRONTEND: HTML, CSS, and JavaScript </br>
 BACKEND: Python and SQlite
 
-*NOT ORIGINAL IMAGES OR MEDIA*
+*NOT ORIGINAL IMAGES OR MEDIA, ALL RIGHTS AND RECOGNITION TO THE ORIGNAL OWNERS
 
 Currently available actions are: Play, pause, volume change
 
