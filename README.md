@@ -3,6 +3,8 @@
 FRONTEND: HTML, CSS, and JavaScript </br>
 BACKEND: Python and SQlite
 
+*NOT ORIGINAL IMAGES OR MEDIA*
+
 Currently available actions are: Play, pause, volume change
 
 To run the music player...
